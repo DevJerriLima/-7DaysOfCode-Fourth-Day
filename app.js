@@ -4,10 +4,13 @@ let i = 0;
 while(i < 3){
     let numeroEscolhido = prompt("Escolha um número de 0 a 10 e ganhe um presente.");
     
-    if (numeroDaSorte == 5){
+    if (numeroEscolhido != numeroDaSorte && i ==  2){
+        alert(`Uma pena você não acertou, o número da sorte era ${numeroDaSorte}.`);
+    }else if (numeroEscolhido == numeroDaSorte){
         alert("Parabéns você ganhou um abraço. Sinta-se abraçado.");
-        i == 3;
+        i = 2;
     }else{
         i++;
     }
+    
 }
