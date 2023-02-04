@@ -1,4 +1,4 @@
-let numeroDaSorte = 5;
+const numeroDaSorte = Math.floor(Math.random() * (10 - 0) + 0);
 let numeroEscolhido = "";
 let acertou = false;
 
